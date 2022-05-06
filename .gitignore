@@ -1,0 +1,7 @@
+*.log
+.idea
+hs_err_pid*
+.gradle
+.mvn
+*.iml
+target
