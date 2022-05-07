@@ -1,6 +1,9 @@
 # spring-boot-demo
 Demo for springboot or spring cloud.
-主分支为 spring-cloud-alibaba-sleuth-zipkin
+
+spring-cloud-eureka
+http://127.0.0.1:8761/
+
 
 ## 基础调用说明
 - 服务入口：订单为入口服务，间接调用 customer merchant order product service
