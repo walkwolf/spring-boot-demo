@@ -15,6 +15,3 @@ https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-skywalkin
 
 ## spring-cloud-alibaba-sleuth-zipkin
 https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-sleuth-zipkin
-
-## spring-cloud-eureka-feign
-https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-eureka-feign
