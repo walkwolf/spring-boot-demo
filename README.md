@@ -2,13 +2,13 @@
 Demo for springboot or spring cloud.
 
 spring-cloud-eureka
-http://127.0.0.1:8761/
+1. start eureka-server, open the web console http://localhost:8761/
+2. start customer,merchant,product,order service
+3. `curl http://localhost:8102/link` for test
 
-
-## 基础调用说明
-- 服务入口：订单为入口服务，间接调用 customer merchant order product service
-- 服务访问路径：每个服务均存在 link 路径访问，例如商户服务 http://127.0.0.1:8101/link。访问后后台会打印访问信息
-- 服务端口：每个服务端口不通，可查看bootstrap.yml
+## service overview
+- order service invoke customer,merchant,product service
+- every service has same test url: http://localhost:{port}/link
 
 ## spring-cloud-alibaba-skywalking
 https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-skywalking
@@ -18,3 +18,6 @@ https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-sleuth-zi
 
 ## spring-cloud-eureka-feign
 https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-eureka-feign
+
+## spring-cloud-gateway-eureka
+https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-gateway-eureka
