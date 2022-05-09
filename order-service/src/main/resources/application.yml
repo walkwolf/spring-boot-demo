@@ -1,0 +1,12 @@
+server:
+  port: 8102
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.1.1:8848
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
