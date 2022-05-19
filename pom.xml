@@ -12,6 +12,7 @@
         <module>merchant-service</module>
         <module>customer-service</module>
         <module>product-service</module>
+        <module>gateway-server</module>
     </modules>
 
     <packaging>pom</packaging>
