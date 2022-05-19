@@ -1,7 +1,14 @@
 # spring-boot-demo
-Demo for springboot or spring cloud.
 
-spring-cloud-eureka
+## main branch
+Spring boot with eureka discovery.
+
+## tech list
+1. spring boot
+2. eureka server
+3. openfeign
+
+## step
 1. start eureka-server, open the web console http://localhost:8761/
 2. start customer,merchant,product,order service
 3. `curl http://localhost:8102/link` for test
@@ -10,14 +17,22 @@ spring-cloud-eureka
 - order service invoke customer,merchant,product service
 - every service has same test url: http://localhost:{port}/link
 
-## spring-cloud-alibaba-skywalking
-https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-skywalking
+## all service overview in branch
+### spring-boot-eureka-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-eureka-discovery
 
-## spring-cloud-alibaba-sleuth-zipkin
-https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-alibaba-sleuth-zipkin
+### spring-boot-nacos-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-nacos-discovery
 
-## spring-cloud-eureka-feign
-https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-eureka-feign
+### spring-boot-gateway-eureka-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-gateway-eureka-discovery
 
-## spring-cloud-gateway-eureka
-https://github.com/walkwolf/spring-boot-demo/tree/spring-cloud-gateway-eureka
+### spring-boot-gateway-nacos-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-gateway-nacos-discovery
+
+### spring-boot-skywalking-nacos-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-skywalking-nacos-discovery
+
+### spring-boot-zipkin-nacos-discovery
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-zipkin-nacos-discovery
+
