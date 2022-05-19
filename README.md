@@ -1,7 +1,5 @@
 # spring-boot-demo
 
-Demo for springboot or spring cloud.
-
 Spring boot use skywalking collect service invoked info with nacos discovery.
 
 tech list
