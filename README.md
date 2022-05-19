@@ -1,8 +1,6 @@
 # spring-boot-demo
 
-Demo for springboot or spring cloud.
-
-spring-cloud-alibaba
+Spring boot with nacos discovery.
 
 1. install and start Nacos
 2. `curl http://localhost:8102/link` for test 
