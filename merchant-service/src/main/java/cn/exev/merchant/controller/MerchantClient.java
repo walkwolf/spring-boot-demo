@@ -7,6 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class MerchantClient {
     @GetMapping("link")
     public void link() {
-        System.out.println(this.getClass().getName() + " link test.");
     }
 }
