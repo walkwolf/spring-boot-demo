@@ -1,9 +1,14 @@
 # spring-boot-demo
 
-Demo for springboot or spring cloud.
+Spring boot with spring cloud gateway and nacos discovery.
 
-spring-cloud-alibaba
+tech list
+1. spring boot
+2. spring cloud gateway
+3. nacos discovery
+4. openfeign
 
+step
 1. install and start Nacos
 2. `curl http://localhost:8102/link` for test 
 
