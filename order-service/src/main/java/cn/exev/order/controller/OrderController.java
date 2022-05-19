@@ -17,12 +17,12 @@ public class OrderController {
 
     @GetMapping("link")
     String link() {
-        // //调用商品服务
+        // invoke product service
         productClient.link();
-        // //调用商户服务
+        // invoke merchant service
         merchantClient.link();
-        // //调用客服服务
+        // invoke customer service
         customerClient.link();
-        return "下单完成";
+        return "success";
     }
 }
