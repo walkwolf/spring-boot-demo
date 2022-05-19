@@ -1,6 +1,6 @@
 # spring-boot-demo
 
-Spring boot use skywalking collect service invoked info with nacos discovery.
+Spring boot distributed tracing with skywalking and nacos discovery.
 
 tech list
 1. spring boot
