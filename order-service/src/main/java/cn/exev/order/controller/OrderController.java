@@ -16,7 +16,7 @@ public class OrderController {
     private final ProductClient productClient;
 
     @GetMapping("link")
-    String link() {
+    public String link() {
         // invoke product service
         productClient.link();
         // invoke merchant service
