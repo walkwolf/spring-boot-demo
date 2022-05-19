@@ -2,13 +2,21 @@
 
 Demo for springboot or spring cloud.
 
-spring-cloud-alibaba-skywalking
+Spring boot use skywalking collect service invoked info with nacos discovery.
 
-1. install and start Nacos
-2. install and start SkyWalking
-3. download SkyWalking java agent
-4. config idea application vm option and start service
-5. `curl http://localhost:8102/link` for test 
+tech list
+1. spring boot
+2. nacos discovery
+3. openfeign
+4. skywalking
+
+
+step
+3. install and start Nacos
+4. install and start SkyWalking
+5. download SkyWalking java agent
+6. config idea application vm option and start service
+7. `curl http://localhost:8102/link` for test 
 
 ## Nacos(1.4.2)
 1. download: https://github.com/alibaba/nacos/releases
