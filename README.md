@@ -30,9 +30,9 @@ https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-gateway-eureka-dis
 ### spring-boot-gateway-nacos-discovery
 https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-gateway-nacos-discovery
 
-### spring-boot-skywalking-nacos-discovery
-https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-skywalking-nacos-discovery
+### spring-boot-distributed-tracing-skywalking
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-distributed-tracing-skywalking
 
-### spring-boot-zipkin-nacos-discovery
-https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-zipkin-nacos-discovery
+### spring-boot-distributed-tracing-zipkin
+https://github.com/walkwolf/spring-boot-demo/tree/spring-boot-distributed-tracing-zipkin
 
