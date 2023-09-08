@@ -13,7 +13,7 @@ step
 1. install and start Nacos
 2. start gateway-server
 3. start customer-service, merchant-service,order-service,product-service.
-4. add gateway config through nacos web console
+4. add gateway config through nacos web console.
 5. `curl http://localhost:8080/order/link` for test
 
 ## Nacos(1.4.2)
