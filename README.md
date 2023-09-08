@@ -16,7 +16,7 @@ step
 4. add gateway config through nacos web console.
 5. `curl http://localhost:8080/order/link` for test
 
-## Nacos(1.4.2)
+## Nacos(2.2.3)
 1. download: https://github.com/alibaba/nacos/releases
 2. run: `startup.cmd -m standalone`
 3. web access: http://localhost:8848/nacos  user/password:nacos/nacos
